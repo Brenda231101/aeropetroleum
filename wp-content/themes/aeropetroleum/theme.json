@@ -1,0 +1,24 @@
+{
+  "version": 2,
+  "settings": {
+    "appearanceTools": true,
+    "layout": {
+      "contentSize": "1180px",
+      "wideSize": "1400px"
+    },
+    "typography": {
+      "fontFamilies": [
+        {
+          "fontFamily": "Eastman, Arial, sans-serif",
+          "slug": "eastman",
+          "name": "Eastman"
+        },
+        {
+          "fontFamily": "Apercu Pro, Apercu, Arial, sans-serif",
+          "slug": "apercu-pro",
+          "name": "Apercu Pro"
+        }
+      ]
+    }
+  }
+}
