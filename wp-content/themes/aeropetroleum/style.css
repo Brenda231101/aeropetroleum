@@ -2741,3 +2741,15 @@ p,
     margin-top: 0;
   }
 }
+
+/* AJUSTE DEL ICONO DE INSPECCIONES END */
+#servicios .card:nth-child(4) .card-icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  transform: scale(0.78);
+}
+
+#servicios .card:nth-child(4) .card-icon {
+  overflow: visible;
+}
