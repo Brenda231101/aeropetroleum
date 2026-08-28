@@ -115,7 +115,7 @@ const servicios = [
     ]
   },
   {
-    icono: 'inspeccion.png',
+   icono: 'inspeccion-ndt.png',
     titulo: 'Inspecciones NDT',
     fotografias: [
       'servicios/inspeccion/5167906956851743860_121.jpg_2K_202608230135.jpeg',
