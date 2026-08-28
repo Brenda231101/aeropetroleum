@@ -86,48 +86,48 @@ document.addEventListener('DOMContentLoaded', function () {
 
   const temaBase = logoTema.src.split('/assets/')[0];
 
-  const servicios = [
-    {
-      icono: 'consultoria.png',
-      titulo: 'Consultoría técnica',
-      fotografias: [
-        'servicios/consultoria/5167906956851743930_121.jpg',
-        'servicios/consultoria/PHOTO-2026-07-22-19-10-06 35.jpg',
-        'servicios/consultoria/PHOTO-2026-07-22-19-10-06 37.jpg'
-      ]
-    },
-    {
-      icono: 'auditoria.png',
-      titulo: 'Auditorías',
-      fotografias: [
-        'servicios/auditorias/5167906956851743930_121.jpg',
-        'servicios/auditorias/PHOTO-2026-07-22-19-08-59 32.jpg',
-        'servicios/auditorias/PHOTO-2026-07-22-19-10-06 53.jpg'
-      ]
-    },
-    {
-      icono: 'verificacion.png',
-      titulo: 'Verificación',
-      fotografias: [
-        'servicios/verificacion/PHOTO-2026-07-22-19-10-06 39.jpg',
-        'servicios/verificacion/PHOTO-2026-07-22-19-10-06 48.jpg',
-        'servicios/verificacion/PHOTO-2026-07-22-19-10-06 51.jpg'
-      ]
-    },
-    {
-      icono: 'inspeccion-ndt.png',
-      titulo: 'Inspecciones END',
-      fotografias: [
-        'servicios/inspeccion/5167906956851743860_121.jpg_2K_202608230135.jpeg',
-        'servicios/inspeccion/5167906956851743915_121.jpg',
-        'servicios/inspeccion/5167906956851743924_121.jpg',
-        'servicios/inspeccion/ChatGPT Image 22 ago 2026, 02_16_18 a.m..png',
-        'servicios/inspeccion/PHOTO-2026-07-22-19-10-06 25.jpg',
-        'servicios/inspeccion/PHOTO-2026-07-22-19-10-06 27.jpg',
-        'servicios/inspeccion/PHOTO-2026-07-22-19-10-06 36.jpg'
-      ]
-    }
-  ];
+const servicios = [
+  {
+    icono: 'consultoria.png',
+    titulo: 'Consultoría técnica',
+    fotografias: [
+      'servicios/consultoria/5167906956851743930_121.jpg',
+      'servicios/consultoria/PHOTO-2026-07-22-19-10-06-35.jpg',
+      'servicios/consultoria/PHOTO-2026-07-22-19-10-06-37.jpg'
+    ]
+  },
+  {
+    icono: 'auditoria.png',
+    titulo: 'Auditorías',
+    fotografias: [
+      'servicios/auditorias/5167906956851743930_121.jpg',
+      'servicios/auditorias/PHOTO-2026-07-22-19-08-59-32.jpg',
+      'servicios/auditorias/PHOTO-2026-07-22-19-10-06-53.jpg'
+    ]
+  },
+  {
+    icono: 'verificacion.png',
+    titulo: 'Verificación',
+    fotografias: [
+      'servicios/verificacion/PHOTO-2026-07-22-19-10-06-39.jpg',
+      'servicios/verificacion/PHOTO-2026-07-22-19-10-06-48.jpg',
+      'servicios/verificacion/PHOTO-2026-07-22-19-10-06-51.jpg'
+    ]
+  },
+  {
+    icono: 'inspeccion.png',
+    titulo: 'Inspecciones NDT',
+    fotografias: [
+      'servicios/inspeccion/5167906956851743860_121.jpg_2K_202608230135.jpeg',
+      'servicios/inspeccion/5167906956851743915_121.jpg',
+      'servicios/inspeccion/5167906956851743924_121.jpg',
+      'servicios/inspeccion/ChatGPT-Image-22-ago-2026-02_16_18-a.m.png',
+      'servicios/inspeccion/PHOTO-2026-07-22-19-10-06-25.jpg',
+      'servicios/inspeccion/PHOTO-2026-07-22-19-10-06-27.jpg',
+      'servicios/inspeccion/PHOTO-2026-07-22-19-10-06-36.jpg'
+    ]
+  }
+];
 
   /* Crear ventana de galería */
   const modal = document.createElement('div');
