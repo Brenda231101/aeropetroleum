@@ -246,7 +246,7 @@ const servicios = [
     if (numero) {
       numero.innerHTML = `
         <img
-          src="${temaBase}/assets/images/icons/${servicio.icono}"
+          src="${temaBase}/assets/images/icons/${servicio.icono}?v=3"
           alt=""
           aria-hidden="true"
         >
