@@ -875,63 +875,23 @@ document.addEventListener("DOMContentLoaded", function () {
     <span>NUEVA PROPUESTA DE IDENTIDAD</span>
     <h3>AeroPetroleum</h3>
 </div>
-                <div class="manual-identidad-actual">
-                    <div class="manual-identidad-logo">
-                        
-
-                        <img
-                            src="${rutaImagenes}logo-color.png"
-                            alt="Identidad actual de AeroPetroleum"
-                        >
-                    </div>
-
-                    <div class="manual-identidad-info">
-                        <h3>Identidad visual</h3>
-
-                        <p>
-                            La identidad de AeroPetroleum integra los
-                            sectores aeronáutico y petrolero y transmite
-                            precisión, seguridad y proyección.
-                        </p>
-
-                        <div class="manual-paleta">
-
-                            <div>
-                                <i style="background:#00004C"></i>
-                                <span>
-                                    Azul marino
-                                    <small>#00004C</small>
-                                </span>
-                            </div>
-
-                            <div>
-                                <i style="background:#8C3F06"></i>
-                                <span>
-                                    Marrón rojizo
-                                    <small>#8C3F06</small>
-                                </span>
-                            </div>
-
-                            <div>
-                                <i style="background:#FFFFFF"></i>
-                                <span>
-                                    Blanco
-                                    <small>#FFFFFF</small>
-                                </span>
-                            </div>
-
-                            <div>
-                                <i style="background:#F1F3F6"></i>
-                                <span>
-                                    Gris claro
-                                    <small>#F1F3F6</small>
-                                </span>
-                            </div>
-
-                        </div>
-                    </div>
-
-                </div>
+                <div style="width:100%; margin-top:24px;">
+    <video
+        autoplay
+        muted
+        loop
+        playsinline
+        controls
+        preload="metadata"
+        style="display:block; width:100%; height:auto;
+               border-radius:16px; background:#fff;"
+    >
+        <source
+            src="/aeropetroleum/wp-content/themes/aeropetroleum/assets/videos/animacion-logo.mp4"
+            type="video/mp4"
+        >
+    </video>
+</div>
             </div>
         `,
 
