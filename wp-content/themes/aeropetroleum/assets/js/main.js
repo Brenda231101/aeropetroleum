@@ -877,20 +877,23 @@ document.addEventListener("DOMContentLoaded", function () {
 </div>
                 <div style="width:100%; margin-top:24px;">
     <video
-        autoplay
-        muted
-        loop
-        playsinline
-        controls
-        preload="metadata"
-        style="display:block; width:100%; height:auto;
-               border-radius:16px; background:#fff;"
+    width="1920"
+    height="1080"
+    autoplay
+    muted
+    loop
+    playsinline
+    controls
+    preload="auto"
+    style="display:block; width:100%; height:auto;
+           aspect-ratio:16/9; object-fit:contain;
+           border-radius:16px; background:#fff;"
+>
+    <source
+        src="/aeropetroleum/wp-content/themes/aeropetroleum/assets/videos/animacion-logo.mp4"
+        type="video/mp4"
     >
-        <source
-            src="/aeropetroleum/wp-content/themes/aeropetroleum/assets/videos/animacion-logo.mp4"
-            type="video/mp4"
-        >
-    </video>
+</video>
 </div>
             </div>
         `,
